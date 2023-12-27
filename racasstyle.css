@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+.cabecario {
+  height: 120px;
+  width: 100%;
+  background-color: rgb(229, 255, 206);
+}
+
+
+.logotipo {
+  height: 130px;
+  width: 270px;
+  margin-left: 90px;
+}
+
+.insta {
+  width: 30px ;
+  float: right;
+  margin-top: 70px;
+  margin-right: 100px;
+}
+
+.tt {
+  width: 30px ;
+  float: right;
+  margin-top: 70px;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+
+.face {
+  width: 30px ;
+  float: right;
+  margin-top: 70px;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+
+.abas {
+  height: 90px;
+  width: 85%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(7, 233, 233);
+  margin: 0 auto;
+  border-radius: 2px 2px 23px 23px;
+}
+
+.links {
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 23px;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 500;
+}
+.links:hover {
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+.texto {
+  text-align: center;
+  color: rgb(106, 155, 155);
+}
+
+.texto > p {
+  color: black;
+}
+.topicos {
+  height: 100%;
+  max-width: 1070px;
+  border-radius: 30px;
+  background-color:rgb(229, 255, 206);;
+  margin: 0 auto;
+    
+}
+.padrao {
+  display: inline-block;
+  margin: 50px;
+  text-align: center;
+}
+.padrao img{
+  border-radius: 80px;
+  margin-left: 15px;
+  margin-right: 14px;
+}
+.padrao h3{
+  color: rgb(10, 155, 155);
+  width: 100%;
+  text-align: center;
+}
+
+.rodape {
+  border-top: 2px solid black;
+  margin-top: 50px;
+  height: 130px;
+  width: 100%;
+  background-color: rgb(229, 255, 206);
+}
+
+.rodape-logotipo {
+  height: 120px;
+  width: 270px;
+  margin-left: 90px;
+}
+
+.rodape-insta {
+  width: 30px ;
+  float: right;
+  margin-top: 70px;
+  margin-right: 100px;
+}
+
+.rodape-tt {
+  width: 30px ;
+  float: right;
+  margin-top: 70px;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+
+.rodape-face {
+  width: 30px ;
+  float: right;
+  margin-top: 70px;
+  margin-right: 40px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1305px){
+  .box-yt > iframe {
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+}
+
+
